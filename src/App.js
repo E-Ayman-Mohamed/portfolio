@@ -13,10 +13,8 @@ export default class App extends Component {
     return (
       <div className="mainContainer">
         <div className="row">
-          {" "}
           <Header />
         </div>
-
         <div className="App">
           <div id="home">
             <div style={{ height: "7vh" }}></div>
@@ -35,15 +33,12 @@ export default class App extends Component {
               </div>
             </div>
           </div>
-          <hr></hr>
           <div id="about" className="row">
             <About />
           </div>
-          <hr></hr>
           <div id="projects" className="row">
             <Projects></Projects>
           </div>
-          <hr></hr>
           <div id="contact" className="row">
             <Footer></Footer>
           </div>
