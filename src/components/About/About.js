@@ -12,9 +12,13 @@ const About = () => {
         مهاراتي ومعرفتي للمساهمة في مشاريع تطوير البرمجيات والتعلم من خبرات
         الآخرين في الصناعة.
       </p>
-      <p>
-        <h4>لغات البرمجه</h4>
-        <>Python | Java | C | C++ | MYSQL | Javascript</>
+      <p align="center">
+        <a href="https://skillicons.dev">
+          <img
+            src="https://skillicons.dev/icons?i=github,androidstudio,c,cpp,java,css,dart,flutter,figma,html,js,mysql,react,vscode"
+            alt=""
+          />
+        </a>
       </p>
     </div>
   );
